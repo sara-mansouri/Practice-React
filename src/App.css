@@ -36,3 +36,174 @@
     transform: rotate(360deg);
   }
 }
+
+.scores {
+  font-family: "Orbitron", sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+}
+ul {
+}
+
+ul.nav-menu {
+  display: flex;
+  justify-content: center;
+}
+
+ul.nav-menu li {
+  list-style: none;
+  background: antiquewhite;
+  margin: 3px;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+ul.nav-menu li a {
+  text-decoration: none;
+  color: black;
+}
+
+.book {
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #c0c0c01f;
+  max-height: 500px;
+  overflow: hidden;
+  overflow-y: auto;
+  flex-basis: 20%;
+  float: left;
+}
+
+a.book-image {
+  float: left;
+  padding: 0px 10px 10px 0 !important;
+}
+
+.BooksApp {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  flex-direction: row;
+  flex-basis: 332px;
+  justify-content: space-evenly;
+}
+.BooksApp form,
+.Result {
+  display: block;
+  width: 100%;
+}
+.shoppinglistcontainer {
+  display: grid;
+}
+
+.shoppinglist {
+  place-self: center;
+  word-break: 400px !important;
+  width: 400px;
+  background: aquamarine;
+  height: 400px;
+
+  margin-top: 40px;
+}
+button.delete-item {
+  border: none;
+  background: none;
+}
+button.delete-item:hover {
+  cursor: pointer;
+}
+.shoppinglist h3 {
+  font-style: italic;
+}
+.dogs-menu {
+  width: 20%;
+  float: left;
+  background: burlywood;
+  height: 100%;
+  /* position: fixed; */
+  margin-left: 44px;
+}
+.dog-image-list {
+  float: left;
+  width: 70%;
+}
+.dogs-menu li {
+  list-style: none;
+  text-align: left;
+  /* color: cadetblue;
+  float: left; */
+  padding: 5px;
+}
+
+.dogs-menu li a {
+  color: darkred;
+}
+.dog-image-list ul {
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  align-items: center;
+}
+.dog-image-list li {
+  list-style: none;
+  /* float: left; */
+  flex-basis: 176px;
+  align-items: center;
+  max-height: 197px;
+  align-items: end;
+  justify-content: space-evenly;
+}
+.dog-imges {
+  height: 500px;
+  overflow: scroll;
+}
+/*users app*/
+.user {
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #c0c0c01f;
+  max-height: 500px;
+  overflow: hidden;
+  overflow-y: auto;
+  flex-basis: 20%;
+  float: left;
+}
+.profile-image {
+  float: left;
+  padding-right: 10px;
+}
+img {
+  padding-right: 10px;
+}
+.flag {
+  clear: both;
+  display: block;
+}
+.deleteUser {
+  float: right;
+}
+.gender {
+  float: right;
+}
+
+.reminder {
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #c0c0c01f;
+  max-height: 500px;
+  overflow: hidden;
+  overflow-y: auto;
+  flex-basis: 20%;
+  float: left;
+}
+.reminder-list {
+  max-width: 900px;
+  display: grid;
+  margin: 0 auto;
+}
